@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock by Lyv Alam</title>
   </head>
   <body>
@@ -17,33 +19,45 @@
         <option value="">Johannesburg</option>
         <option value="">St Moritz</option>
       </select>
-      <div class="main-cities">
+      <div class="main-cities" id="city1">
         <div>
           <div class="main-city-name">Los Angeles 🇺🇸</div>
-          <div class="main-city-date">January 30th 2024</div>
+          <div class="main-city-date"></div>
         </div>
-        <div class="main-city-time">1:48:15 <small>AM</small></div>
+        <div>
+          <span class="main-city-time"></span>
+          <span class="time-period"></span>
+        </div>
       </div>
-      <div class="main-cities">
+      <div class="main-cities" id="city2">
         <div>
           <div class="main-city-name">Tokyo 🇯🇵</div>
-          <div class="main-city-date">January 30th 2024</div>
+          <div class="main-city-date"></div>
         </div>
-        <div class="main-city-time">1:48:15 <small>AM</small></div>
+        <div>
+          <span class="main-city-time"></span>
+          <span class="time-period"></span>
+        </div>
       </div>
-      <div class="main-cities">
+      <div class="main-cities" id="city3">
         <div>
           <div class="main-city-name">Paris 🇫🇷</div>
-          <div class="main-city-date">January 30th 2024</div>
+          <div class="main-city-date"></div>
         </div>
-        <div class="main-city-time">1:48:15 <small>AM</small></div>
+        <div>
+          <span class="main-city-time"></span>
+          <span class="time-period"></span>
+        </div>
       </div>
-      <div class="main-cities">
+      <div class="main-cities" id="city4">
         <div>
           <div class="main-city-name">Sydney 🇳🇿</div>
-          <div class="main-city-date">January 30th 2024</div>
+          <div class="main-city-date"></div>
         </div>
-        <div class="main-city-time">1:48:15 <small>AM</small></div>
+        <div>
+          <span class="main-city-time"></span>
+          <span class="time-period"></span>
+        </div>
       </div>
     </div>
   </body>

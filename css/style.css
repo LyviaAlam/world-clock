@@ -55,7 +55,9 @@ footer {
   line-height: 60px;
 }
 
-.main-city-time small {
+.time-period {
   font-size: 20px;
-  vertical-align: middle;
+  font-weight: 600;
+  position: relative;
+  bottom: 6px;
 }
