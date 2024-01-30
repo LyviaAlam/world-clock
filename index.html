@@ -10,53 +10,55 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
+      <h1>🌍 World Clock</h1>
       <select name="select-city" id="select-city">
         <option value="">Select a city...</option>
-        <option value="">Vancouver</option>
-        <option value="">Geneva</option>
-        <option value="">London</option>
-        <option value="">Johannesburg</option>
-        <option value="">St Moritz</option>
+        <option value="America/Vancouver">Vancouver</option>
+        <option value="Asia/Bangkok">Bangkok</option>
+        <option value="Europe/London">London</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+        <option value="Europe/Moscow">Moscow</option>
       </select>
-      <div class="main-cities" id="city1">
-        <div>
-          <div class="main-city-name">Los Angeles 🇺🇸</div>
-          <div class="main-city-date"></div>
+      <div id="all-cities">
+        <div class="main-cities" id="city1">
+          <div>
+            <div class="main-city-name">Los Angeles 🇺🇸</div>
+            <div class="main-city-date"></div>
+          </div>
+          <div>
+            <span class="main-city-time"></span>
+            <span class="time-period"></span>
+          </div>
         </div>
-        <div>
-          <span class="main-city-time"></span>
-          <span class="time-period"></span>
+        <div class="main-cities" id="city2">
+          <div>
+            <div class="main-city-name">Tokyo 🇯🇵</div>
+            <div class="main-city-date"></div>
+          </div>
+          <div>
+            <span class="main-city-time"></span>
+            <span class="time-period"></span>
+          </div>
         </div>
-      </div>
-      <div class="main-cities" id="city2">
-        <div>
-          <div class="main-city-name">Tokyo 🇯🇵</div>
-          <div class="main-city-date"></div>
+        <div class="main-cities" id="city3">
+          <div>
+            <div class="main-city-name">Paris 🇫🇷</div>
+            <div class="main-city-date"></div>
+          </div>
+          <div>
+            <span class="main-city-time"></span>
+            <span class="time-period"></span>
+          </div>
         </div>
-        <div>
-          <span class="main-city-time"></span>
-          <span class="time-period"></span>
-        </div>
-      </div>
-      <div class="main-cities" id="city3">
-        <div>
-          <div class="main-city-name">Paris 🇫🇷</div>
-          <div class="main-city-date"></div>
-        </div>
-        <div>
-          <span class="main-city-time"></span>
-          <span class="time-period"></span>
-        </div>
-      </div>
-      <div class="main-cities" id="city4">
-        <div>
-          <div class="main-city-name">Sydney 🇳🇿</div>
-          <div class="main-city-date"></div>
-        </div>
-        <div>
-          <span class="main-city-time"></span>
-          <span class="time-period"></span>
+        <div class="main-cities" id="city4">
+          <div>
+            <div class="main-city-name">Sydney 🇳🇿</div>
+            <div class="main-city-date"></div>
+          </div>
+          <div>
+            <span class="main-city-time"></span>
+            <span class="time-period"></span>
+          </div>
         </div>
       </div>
     </div>
