@@ -75,7 +75,10 @@ function updateCity(event) {
             <span class="main-city-time">${selectedCityTime}</span>
             <span class="time-period">${selectedCityPeriod}</span>
           </div>
-        </div>`;
+        </div>
+<br />
+        <a class="back-link" href="https://world-clock-by-lyv.netlify.app/">Back to All Cities</a>
+       `;
 }
 
 let selectCityElement = document.querySelector("#select-city");
