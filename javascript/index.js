@@ -55,6 +55,9 @@ setInterval(updateTime, 1000);
 function updateCity(event) {
   let selectedCity = event.target.value;
 
+  if (selectedCity === "current") {
+    selectedCity = moment.tz.guess();
+  }
   let selectedCityTimezone = moment().tz(selectedCity);
   let selectedCityName = selectedCity.replace("_", " ").split("/")[1];
   let selectedCityDate = selectedCityTimezone.format("MMMM Do YYYY");
